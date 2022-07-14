@@ -15,7 +15,24 @@
 int main(int, char**) {
 
     std::string str = "string";
+    // size_type类型
     std::string::size_type n = str.size();
+
+    // 范围for语句
+    for(auto c : str) {
+        std::cout << c << std::endl;
+    }
+
+    for(char &c : str) {
+        c = toupper(c);
+        std::cout << c << std::endl;
+    }
+
+    std::cout << str << std::endl;
+
+    
+
+
 
     std::cout << "Hello, world!\n";
 }
