@@ -1,9 +1,11 @@
 /*
  * @Author: BlackFrog
  * @Date: 2022-07-13 22:31:49
- * @LastEditTime: 2022-07-13 22:35:54
+ * @LastEditTime: 2022-07-14 09:15:52
  * @Description: 
  * 
+ * string源码解析
+ * https://developer.51cto.com/article/624762.html
  * Copyright (c) 2022 by BlackFrog, All Rights Reserved. 
  */
 #include <iostream>
